@@ -1,0 +1,6 @@
+if [ $# -ne 1 ];then
+	echo "Usage: dwp \"The site to be downloaded\""
+	exit
+fi
+
+wget -r -p -k -np $1
