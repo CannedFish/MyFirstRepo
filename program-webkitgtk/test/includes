@@ -1,0 +1,1 @@
+export C_INCLUDE_PATH=/usr/include/libsoup-2.4/:/usr/local/include/webkitgtk-3.0/
