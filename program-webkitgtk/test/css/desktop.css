@@ -22,3 +22,9 @@ html body {
 	left: 20px;
 	top: 20px;
 }
+
+#terminal {
+	position: absolute;
+	left: 20px;
+	top: 80px;
+}
