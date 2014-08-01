@@ -1,1 +1,10 @@
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_i386.deb
+if [ $# -ne 1 ]; then
+	echo "Usage: chrome_download 32|64"
+	exit 1
+fi
+
+if [ $1x -eq 32x ]; then
+	wget https://dl.google.com/linux/direct/google-chrome-stable_current_i386.deb
+else
+	wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+fi
