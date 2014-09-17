@@ -1,0 +1,8 @@
+cp index.html ~/workspace/demo-webde/
+cp one-window.c ~/workspace/demo-webde/
+cp demo-webde ~/workspace/demo-webde/
+cp -r js/ ~/workspace/demo-webde/
+cp -r lib/ ~/workspace/demo-webde/
+cp -r css/ ~/workspace/demo-webde/
+cp -r img/ ~/workspace/demo-webde/
+cp Makefile ~/workspace/demo-webde/
